@@ -1,0 +1,15 @@
+#!/bin/sh
+
+trap print_exit TERM
+#trap "echo \"I have been killed with -9\"" KILL
+#trap "echo \"I have been killed with -9\"" QUIT
+
+print_exit() {
+	echo " I  have been interrupted!"
+	exit
+}
+
+echo "I am gonna sleep for many many seconds now..."
+sleep 500
+
+echo "I will be back!"
