@@ -1,8 +1,7 @@
 #!/bin/sh
 
-trap print_exit TERM
-#trap "echo \"I have been killed with -9\"" KILL
-#trap "echo \"I have been killed with -9\"" QUIT
+trap print_exit INT
+trap print_on_kill KILL
 
 print_exit() {
 	echo " I  have been interrupted!"

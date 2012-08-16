@@ -18,3 +18,6 @@ echo "Just to be sure it is an array"
 for a in ${array[@]}; do
 	echo $a
 done
+echo "tell me something and I shall save array without var"
+read -a 
+echo "The array contains : ${REPLY[@]}"

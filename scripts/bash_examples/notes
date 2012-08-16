@@ -1,0 +1,30 @@
+local variables 
+
+local var="something"
+
+
+
+  1. local vs global
+  2. function
+  3. passing_arguments_to_functions_wrong.sh
+
+  4. print your own program
+  5. trap commands
+  6. arithmetic
+  7. string
+  8. file existence
+  9. loops
+  10. 
+
+
+
+Recently uploaded gems
+Deploy packages
+cron to backup a location every x minutes
+
+is there a way to check the type?
+limiting a function signature?
+for loop - can we change the delimiter
+returning a string or float from a function
+trap a kill -9 signal?
+d [-ers] [-u fd] [-t timeout] [-p prompt] [-a array] [-n nchars] [-d delim] [name ...]
